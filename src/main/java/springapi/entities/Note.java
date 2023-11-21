@@ -14,5 +14,5 @@ public class Note {
     private String title;
 
     @DynamoDBAttribute
-    private String message;
+    private String content;
 }
